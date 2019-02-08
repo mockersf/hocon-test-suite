@@ -2,8 +2,8 @@
 
 set -x
 
-#git clone https://github.com/lightbend/config.git tmp/
-#cp -r tmp/config/src/test/resources/ hocon/
+git clone https://github.com/lightbend/config.git tmp/
+cp -r tmp/config/src/test/resources/ hocon/
 
 cd hocon2json && sbt assembly && cd ..
 
